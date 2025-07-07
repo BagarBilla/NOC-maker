@@ -1,0 +1,130 @@
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.flex-row {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-section {
+    flex: 1 1 350px;
+    min-width: 320px;
+    max-width: 400px;
+}
+
+.preview-section {
+    flex: 1 1 400px;
+    min-width: 350px;
+    max-width: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: #444;
+}
+
+.form input {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.copy-btn {
+    display: block;
+    margin: 0 auto 24px auto;
+    padding: 10px 24px;
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.copy-btn:hover {
+    background: #005fa3;
+}
+
+.document-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 18px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 1.05rem;
+    white-space: pre-wrap;
+    min-height: 320px;
+    color: #222;
+}
+
+.course-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.course-buttons button {
+    padding: 8px 18px;
+    border: 1px solid #0078d4;
+    background: #fff;
+    color: #0078d4;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.course-buttons button.selected,
+.course-buttons button:hover {
+    background: #0078d4;
+    color: #fff;
+}
+
+.gender-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.gender-buttons button {
+    padding: 8px 18px;
+    border: 1px solid #0078d4;
+    background: #fff;
+    color: #0078d4;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.gender-buttons button.selected,
+.gender-buttons button:hover {
+    background: #0078d4;
+    color: #fff;
+}

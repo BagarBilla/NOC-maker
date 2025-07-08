@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NOC-maker/static/css/main.99b60074.chunk.css",
-    "main.js": "/NOC-maker/static/js/main.743a6543.chunk.js",
-    "main.js.map": "/NOC-maker/static/js/main.743a6543.chunk.js.map",
+    "main.js": "/NOC-maker/static/js/main.8d2d81b7.chunk.js",
+    "main.js.map": "/NOC-maker/static/js/main.8d2d81b7.chunk.js.map",
     "runtime-main.js": "/NOC-maker/static/js/runtime-main.341eb7db.js",
     "runtime-main.js.map": "/NOC-maker/static/js/runtime-main.341eb7db.js.map",
     "static/js/2.ef830988.chunk.js": "/NOC-maker/static/js/2.ef830988.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.341eb7db.js",
     "static/js/2.ef830988.chunk.js",
     "static/css/main.99b60074.chunk.css",
-    "static/js/main.743a6543.chunk.js"
+    "static/js/main.8d2d81b7.chunk.js"
   ]
 }
